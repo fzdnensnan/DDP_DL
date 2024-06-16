@@ -11,7 +11,15 @@ The source code includes the following files:
 * **Zyf_RSP.m**, function of the benchmark algorithm $SG$.
   
 ## Dataset
-We construct the network data into `.xlsx`, with the mean and variance of travel cost responding to each edge.
+- We construct the network data into `.xlsx`, with the mean and variance of travel cost responding to each edge.
+- Please unzip the datasets in the folder **experiment** before you attempt to run the code
+
+## Dependency
+- **Graph**:
+1. Open the MATLAB 'Add-On Explorer'. You can do this by:  
+   Selecting "Home" -> "Get Add-Ons" from the main menu bar **or** typing `addons.open()` in the command window
+2. In the 'Add-On Explorer', search for "graph" and find the "MATLAB Graph Package".
+3. Click the "Install" button to start downloading and installing the graph package.
 
 ## Notes
 - The default representation of networks is the adjacency matrix.
