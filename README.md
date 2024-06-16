@@ -12,7 +12,10 @@ The source code includes the following files:
   
 ## Dataset
 - We construct the network data into `.xlsx`, with the mean and variance of travel cost responding to each edge.
-- Please unzip the datasets in the folder **experiment** before you attempt to run the code
+- Please unzip the datasets in the folder **experiment** before you attempt to run the code.
+- Ensure that the folder **experiment** is decompressed to the same directory as the main file **main.m**, and check the input files valid exist,
+eg. `network = '.\experiment\Chengdu-weekend-offpeak.xlsx';`  
+    `networkod = '.\experiment\Chengdu_OD_pair.xlsx';`
 
 ## Dependency
 - **Graph**:
